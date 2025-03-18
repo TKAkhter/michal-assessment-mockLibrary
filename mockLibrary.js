@@ -9,7 +9,7 @@ const MockLibrary = {
     },
     isConnected: () => {
         console.log("Connected: true (v2)");
-        return true
+        return "true"
     },
     batteryStatus: () => {
         console.log("Battery Status: 85% (v2)");
