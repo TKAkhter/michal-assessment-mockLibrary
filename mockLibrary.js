@@ -1,8 +1,8 @@
 const MockLibrary = {
-    connection: () => console.log("Connected (v1)"),
-    disconnection: () => console.log("Disconnected (v1)"),
-    connected: () => true,
-    readBatteryStatus: () => 75,
+    connect: () => console.log("Connected (v2)"),
+    disconnect: () => console.log("Disconnected (v2)"),
+    isConnected: () => true,
+    batteryStatus: () => 85,
 };
 
 module.exports = MockLibrary;
