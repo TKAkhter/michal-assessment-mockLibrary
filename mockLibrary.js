@@ -1,11 +1,9 @@
 const MockLibrary = {
     connect: () => {
         console.log("Connected (v2)");
-        return "Connected (v2)"
     },
     disconnect: () => {
         console.log("Disconnected (v2)");
-        return "Disconnected (v2)"
     },
     isConnected: () => {
         console.log("Connected: true (v2)");
